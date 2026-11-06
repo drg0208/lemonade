@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만 고양이가 없음</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .cat-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 1.5rem;
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: transform 0.3s ease;
+        }
+
+        .cat-icon:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #d63031;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .lament {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: #d63031;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #c22627;
+        }
+
+        .notes {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cat-icon" title="고양이 없음"></div>
+        <h1>나만 고양이가 없음</h1>
+        <p class="lament">
+            다들 고양이 가지고 놀면서 행복해하는데<br>
+            저는 혼자서만 고양이 없이 외롭게 지내고 있어요...
+        </p>
+        <a href="#" class="button">고양이 한 마리 데려오기</a>
+    </div>
+    <div class="notes">
+        Just a simple page expressing that I'm the only one without a cat.
+    </div>
+</body>
+</html>
