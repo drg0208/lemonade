@@ -10,7 +10,7 @@ https://github.com/drg0208/lemonade
 
 | 구분 | 기술명 |
 | :--- | :--- |
-| 언어 | HTML5, CSS3 |
+| 언어 | Python, Nodejs, Java, C, C++, Swift, R |
 | 형상관리 | Git, GitHub |
 | 배포 | GitHub Pages |
 
